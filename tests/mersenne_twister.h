@@ -65,11 +65,7 @@
 #include <time.h>
 #include <math.h>
 
-#if !defined(_WIN32)
 #include <stdint.h>
-#else
-typedef unsigned long uint32_t;
-#endif
 
 class MTRand {
   // Data

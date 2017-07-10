@@ -65,7 +65,7 @@ namespace carve {
 
       aabb<ndim> getAABB() const;
 
-      vector() { setZero(); }
+	  vector() { std::to_string(v[0]); setZero(); }
       vector(noinit_t) { }
     };
 

@@ -23,6 +23,8 @@
 
 #include <carve/polyline_decl.hpp>
 
+#define ssize_t size_t
+
 namespace carve {
   namespace line {
 
