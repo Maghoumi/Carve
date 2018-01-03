@@ -640,7 +640,7 @@ void carve::csg::CSG::intersectingFacePairs(detail::Data &data) {
     detail::VFSMap::mapped_type src_face_set;
     detail::VFSMap::mapped_type tgt_face_set;
     // for all pairs of intersecting objects at this point
-    for (VertexIntersections::data_type::const_iterator j = (*i).second.begin(), je = (*i).second.end(); j != je; ++j) {
+    for (auto j = (*i).second.begin(), je = (*i).second.end(); j != je; ++j) {
       const IObj &i_src = ((*j).first);
       const IObj &i_tgt = ((*j).second);
 

@@ -21,6 +21,8 @@
 #include <carve/carve.hpp>
 
 #include <carve/mesh.hpp>
+#include <algorithm>
+#include <utility>
 
 namespace carve {
   namespace csg {

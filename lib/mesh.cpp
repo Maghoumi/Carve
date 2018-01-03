@@ -25,6 +25,9 @@
 
 #include <carve/poly.hpp>
 
+#include <functional>
+#include <iterator>
+
 namespace {
   inline double CALC_X(const carve::geom::plane<3> &p, double y, double z) { return -(p.d + p.N.y * y + p.N.z * z) / p.N.x; }
   inline double CALC_Y(const carve::geom::plane<3> &p, double x, double z) { return -(p.d + p.N.x * x + p.N.z * z) / p.N.y; }

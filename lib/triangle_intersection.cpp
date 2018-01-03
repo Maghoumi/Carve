@@ -26,7 +26,7 @@
 #include <carve/shewchuk_predicates.hpp>
 
 #include <cstdlib>
-
+#include <algorithm>
 #include <iostream>
 
 typedef carve::geom::vector<3> vec3;
